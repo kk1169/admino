@@ -21,9 +21,9 @@
         folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="<?php base_url()?>assets/dist/css/skins/_all-skins.min.css">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue fixed sidebar-mini">
 
     <!-- WRAPPER START -->
     <div class="wrapper">
@@ -41,7 +41,10 @@
         </div>
         <!-- CONTENT WRAPPER END -->
 
+        <!-- FOOTER -->
         <?php include "includes/footer.php" ?>
+
+        <!-- CONTROL SIDEBAR -->
         <?php include "includes/control_sidebar.php" ?>
         
     </div>
@@ -61,10 +64,8 @@
     <script src="<?php base_url()?>assets/dist/js/adminlte.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="<?php base_url()?>assets/dist/js/demo.js"></script>
+    <script src="<?php base_url()?>assets/dist/js/main.js"></script>
     <script>
-    $(document).ready(function () {
-        $('.sidebar-menu').tree()
-    })
     </script>    
 </body>
 </html>

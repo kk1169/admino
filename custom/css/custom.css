@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: block;
+  min-height: 100%;
+  float: left;
+  width: 100%;
+}
+
+.wrapper .wrapper-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16%;
+  height: 100%;
+  border-right: 1px solid #ddd;
+}
+
+.wrapper .wrapper-right {
+  position: relative;
+  top: 50px;
+  left: 16%;
+  width: 84%;
+  display: block;
+  overflow-y: scroll;
+}
+
+.header-navbar {
+  margin-bottom: 0;
+  border: 1px solid #ddd;
+  width: 84%;
+  left: 16%;
+  background-color: #8c00ff;
+  border: none;
+}
+
+.header-navbar .sidebar-toggle .navbar-brand .ion {
+  color: #fff;
+  float: left;
+  font-size: 25px;
+  margin-top: -3px;
+}
+
+.header-navbar .navbar-nav li a {
+  color: #fff;
+}
+
+.header-navbar .navbar-nav li a:hover, .header-navbar .navbar-nav li a:focus {
+  background-color: #222D32;
+}
+
+.sidebar-wrapper {
+  display: block;
+}
+/*# sourceMappingURL=custom.css.map */

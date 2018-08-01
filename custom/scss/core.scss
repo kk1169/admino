@@ -1,0 +1,30 @@
+body{
+    font-family:'Roboto',sans-serif;
+    overflow: hidden;
+}
+
+.wrapper{
+    display:block;
+    min-height: 100%;
+    float: left;
+    width:100%;
+
+    .wrapper-left{
+        position: fixed;
+        top:0;
+        left:0;
+        width:16%;
+        height:100%;
+        border-right:1px solid #ddd;
+    }
+
+    .wrapper-right{
+        position: relative;
+        top:50px;
+        left:16%;
+        width:84%;
+        display:block;
+        overflow-y:scroll;
+    }
+}
+

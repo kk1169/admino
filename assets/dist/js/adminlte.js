@@ -654,6 +654,7 @@ throw new Error('AdminLTE requires jQuery')
     }
   };
 
+
   // Plugin Definition
   // =================
   function Plugin(option) {
