@@ -29,6 +29,8 @@
                 </div>
                 <div class="box-body">
                 Start creating your amazing application!
+
+                    <?php echo base_url();?>
                 </div>
                 <!-- /.box-body -->
                 <div class="box-footer">

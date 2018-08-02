@@ -14,6 +14,8 @@
 
     <!-- Ionicons -->
     <link rel="stylesheet" href="<?php base_url()?>custom/plugins/Ionicons/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="<?php base_url()?>custom/plugins/metismenu/dist/metisMenu.min.css">
     <link rel="stylesheet" href="<?php base_url()?>custom/css/custom.css">
 </head>
 <body>
@@ -25,7 +27,7 @@
             <?php include "includes/sidebar.php";?>
         </div>
         <div class="wrapper-right">
-            <?php include "includes/header.php";?>
+            <?php //include "includes/header.php";?>
             <div class="content-wrapper">
 
             </div>
@@ -40,6 +42,10 @@
     <script src="<?php base_url()?>custom/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 3.3.7 -->
     <script src="<?php base_url()?>custom/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php base_url()?>custom/plugins/metismenu/dist/metisMenu.min.js"></script>
     <script src="<?php base_url()?>custom/js/main.js"></script>
+    <script>
+        $("#menu").metisMenu();
+    </script>
 </body>
 </html>

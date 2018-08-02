@@ -1,3 +1,62 @@
 .sidebar-wrapper{
     display: block;
+    background-color:$secondry;
 }
+
+.sidebar-nav {
+
+    .metismenu-header{
+        padding: 10px 25px 10px 15px;
+        font-size: 12px;
+        color: #4b646f;
+        background: #1a2226;
+    }
+
+    .metismenu {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background:#1E282C;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        > li {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            position: relative;
+        }
+        a {
+            position: relative;
+            display: block;
+            padding: 13px 15px;
+            color: #adb5bd;
+            outline-width: 0;
+            transition: all .3s ease-out;
+        }
+        ul {
+            a {
+                padding: 10px 15px 10px 30px;
+            }
+            ul a {
+                padding: 10px 15px 10px 45px;
+            }
+        }
+        a {
+            &:hover, &:focus, &:active {
+                color: #f8f9fa;
+                text-decoration: none;
+                background:darken($secondry,10%);
+            }
+        }
+    }
+  }

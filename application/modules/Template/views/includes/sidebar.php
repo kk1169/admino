@@ -4,7 +4,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="<?php base_url()?>assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url();?>assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -37,6 +37,7 @@
             <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
           </ul>
         </li>
+        
         <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
@@ -127,7 +128,7 @@
           </a>
         </li>
         <li>
-          <a href="../mailbox/mailbox.html">
+          <a href="<?php echo base_url();?>mailbox">
             <i class="fa fa-envelope"></i> <span>Mailbox</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-yellow">12</small>
@@ -192,7 +193,29 @@
         <li class="header">LABELS</li>
         <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li><li class="header">EMPLOYEE SECTION</li><li class="treeview">
+          <a href="#">
+            <i class="fa fa-user"></i> <span>Employee</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href=""><i class="fa fa-circle-o"></i> Attendance</a></li>
+            <li><a href=""><i class="fa fa-circle-o"></i> Leaves</a></li>
+          </ul>
+        </li>
+        <li class="header">PROJECT SECTION</li><li class="treeview">
+          <a href="#">
+            <i class="fa fa-tasks"></i> <span>Project</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href=""><i class="fa fa-circle-o"></i> Project</a></li>
+          </ul>
+        </li>
       </ul>
     </section>
     <!-- /.sidebar -->

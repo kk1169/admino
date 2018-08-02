@@ -1,0 +1,32 @@
+
+@mixin scrollbar_custom(){
+    &::-webkit-scrollbar-track
+    {
+        background-color: #F5F5F5;
+    }
+
+    &::-webkit-scrollbar
+    {
+        width: 5px;
+        background-color: #F5F5F5;
+        
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+        background-color:#000;
+    }
+}
+
+// BODY
+body{
+    @include scrollbar_custom();
+}
+
+
+// MESSAGE MENU
+.messages-menu{
+    .menu{
+        @include scrollbar_custom();
+    }
+}
